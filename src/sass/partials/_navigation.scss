@@ -1,0 +1,37 @@
+nav {
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 25px;
+  padding-right: 25px;
+  min-height: 70px;
+  background: getColour(white);
+  box-shadow: $shadow;
+  z-index: 1000;
+
+  .navLinks {
+    gap: 30px;
+  }
+}
+
+nav,
+.navLinks {
+  display: flex;
+}
+
+.homeLinksSections,
+.projectLinksSections {
+  display: flex;
+  justify-content: flex-start;
+  gap: 30px;
+  margin-top: 30px;
+  margin-bottom: 35px;
+
+  a {
+    border: 1px solid getColour(black);
+    padding: 10px 15px;
+  }
+
+  a:hover {
+    background: getColour(lightbrown);
+  }
+}

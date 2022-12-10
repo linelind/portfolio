@@ -1,0 +1,63 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+}
+
+.contentWrapper {
+  max-width: 800px;
+  margin: auto;
+  flex: 1 0 auto;
+}
+
+body {
+  background-color: getColour(brown);
+
+  h1,
+  h2 {
+    font-family: $font-primary;
+  }
+
+  h1 {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-size: 54px;
+  }
+
+  p,
+  a {
+    color: getColour(black);
+  }
+
+  p {
+    font-family: $font-secondary;
+    line-height: 30px;
+  }
+
+  a {
+    text-decoration: none;
+    font-family: $font-primary;
+  }
+}
+
+footer {
+  flex-shrink: 0;
+  background: getColour(white);
+  text-align: center;
+  font-size: 12px;
+}

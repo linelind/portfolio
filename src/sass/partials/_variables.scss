@@ -1,0 +1,20 @@
+$font-primary: "Hind", sans-serif;
+$font-secondary: "Open Sans", sans-serif;
+
+$smallest-width: 350px;
+$small-width: 500px;
+$medium-width: 550px;
+$large-width: 650px;
+
+$shadow: 1px 0px 5px #271f1648;
+
+$colours: (
+  brown: #e6dace,
+  lightbrown: #f4ece6,
+  black: #000,
+  white: #fff,
+);
+
+@function getColour($colour) {
+  @return map-get($colours, $colour);
+}

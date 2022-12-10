@@ -1,0 +1,76 @@
+.projectsMainDesc {
+  margin-top: -25px;
+  margin-bottom: 80px;
+}
+
+.project {
+  background-color: getColour(white);
+  padding: 10px 25px;
+  margin-bottom: 50px;
+  box-shadow: $shadow;
+
+  .projectLabel {
+    font-size: 14px;
+    margin-top: -20px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid getColour(brown);
+  }
+}
+
+.resumeIntro {
+  line-height: 35px;
+  background-color: getColour(lightbrown);
+  position: absolute;
+  top: 70px;
+  right: 0;
+  left: 0;
+  padding: 40px 100px;
+
+  .resumeIntroContent {
+    max-width: 900px;
+    margin: auto;
+  }
+}
+
+.resumeContainer {
+  background-color: getColour(white);
+  padding: 25px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+  h2 {
+    border-bottom: 1px solid getColour(brown);
+  }
+}
+
+.resumeItem {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 50px;
+  gap: 20px;
+
+  h3 {
+    margin: 0;
+  }
+
+  .resumeDescInfo {
+    flex: 5;
+
+    ul {
+      padding-left: 30px;
+    }
+  }
+
+  .resumeTimeInfo {
+    flex: 2;
+
+    p {
+      font-size: 12px;
+      margin-bottom: -5px;
+    }
+  }
+}
+
+.experienceContainer {
+  margin-top: 700px;
+}
