@@ -5,9 +5,9 @@
 }
 
 .homeInfoContainer {
-  padding: 15px 50px 40px 50px;
-  margin-top: 30px;
-  margin-left: -15px;
+  padding: 15px 60px 40px 60px;
+  margin-top: 20px;
+  margin-left: -10px;
   background-color: getColour(white);
   margin-bottom: 50px;
 }
@@ -45,5 +45,6 @@
     text-align: center;
     margin: 5px;
     font-size: 12px;
+    line-height: 20px;
   }
 }

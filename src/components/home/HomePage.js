@@ -32,6 +32,11 @@ export default function HomePage() {
         <h2>linelind</h2>
         <p>Frontend Development</p>
         <p>UX / UI Design</p>
+        <p>Communcation</p>
+        <p>Content Creation</p>
+        <p>Journalism</p>
+        <p>Publishing</p>
+        <p>Languages and Literature</p>
       </section>
     </div>
   );
