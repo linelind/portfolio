@@ -1,6 +1,6 @@
 # Portfolio of linelind
 
-Welscome to my porfolio page! Here you will get an insight into me and my experience. Please feel free to contact me if you have any questions.
+Welcome to my porfolio page! Here you will get an insight into me and my experience. Please feel free to contact me if you have any questions.
 
 Visit site live at: [https://linelind-portfolio.up.railway.app/](https://linelind-portfolio.up.railway.app/)
 

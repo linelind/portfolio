@@ -14,6 +14,10 @@
     align-items: flex-start;
     gap: 25px;
 
+    @media (max-width: $medium-width) {
+      flex-direction: column;
+    }
+
     p {
       margin-top: 0;
     }
@@ -48,6 +52,13 @@
   left: 0;
   padding: 40px 100px;
 
+  @media (max-width: $medium-width) {
+    position: relative;
+    padding: 0;
+    background: none;
+    top: 0;
+  }
+
   .resumeIntroContent {
     max-width: 900px;
     margin: auto;
@@ -70,6 +81,10 @@
   align-items: flex-start;
   margin-top: 50px;
   gap: 20px;
+
+  @media (max-width: $medium-width) {
+    flex-direction: column;
+  }
 
   h3 {
     margin: 0;
@@ -96,6 +111,14 @@
 
 .experienceContainer {
   margin-top: 620px;
+
+  @media (max-width: $large-width) {
+    margin-top: 680px;
+  }
+
+  @media (max-width: $medium-width) {
+    margin-top: 80px;
+  }
 }
 
 .screenshotSite {

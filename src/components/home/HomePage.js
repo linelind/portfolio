@@ -29,12 +29,14 @@ export default function HomePage() {
         <div className='imgContainer'>
           <img src={ProfileImage} alt='Profile image' />
         </div>
-        <h2>linelind</h2>
-        <p>Frontend Development</p>
-        <p>UX / UI Design</p>
-        <p>Communcation</p>
-        <p>Content Creation</p>
-        <p>Journalism</p>
+        <div className='bioContainer'>
+          <Heading size={2} title={"linelind"} />
+          <p>Frontend Development</p>
+          <p>UX / UI Design</p>
+          <p>Communcation</p>
+          <p>Content Creation</p>
+          <p>Journalism</p>
+        </div>
       </section>
     </div>
   );

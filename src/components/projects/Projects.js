@@ -19,10 +19,10 @@ export default function ProjectsPage() {
                 existing products. All visitors can view products and add products to the cart. The project is built using Bootstrap and Sass.
               </p>
               <div className='projectLinksSections'>
-                <a href='https://github.com/linelind/line-lindheim-toresby_sp2' target='_blank'>
+                <a href='https://github.com/linelind/line-lindheim-toresby_sp2' target='_blank' rel='noreferrer'>
                   GitHub
                 </a>
-                <a href='https://magnificent-centaur-7f9542.netlify.app/index.html' target='_blank'>
+                <a href='https://magnificent-centaur-7f9542.netlify.app/index.html' target='_blank' rel='noreferrer'>
                   Website
                 </a>
               </div>
@@ -42,7 +42,7 @@ export default function ProjectsPage() {
                 Bootstrap.
               </p>
               <div className='projectLinksSections'>
-                <a href='https://github.com/Noroff-FEU-Assignments/js-frameworks-course-assignment-linelind' target='_blank'>
+                <a href='https://github.com/Noroff-FEU-Assignments/js-frameworks-course-assignment-linelind' target='_blank' rel='noreferrer'>
                   GitHub
                 </a>
               </div>
@@ -62,10 +62,10 @@ export default function ProjectsPage() {
                 other users. The project is built using React, Bootstrap and Sass.
               </p>
               <div className='projectLinksSections'>
-                <a href='https://github.com/Noroff-FEU-Assignments/project-exam-2-linelind' target='_blank'>
+                <a href='https://github.com/Noroff-FEU-Assignments/project-exam-2-linelind' target='_blank' rel='noreferrer'>
                   GitHub
                 </a>
-                <a href='https://plottwist-linelind.netlify.app' target='_blank'>
+                <a href='https://plottwist-linelind.netlify.app' target='_blank' rel='noreferrer'>
                   Website
                 </a>
               </div>

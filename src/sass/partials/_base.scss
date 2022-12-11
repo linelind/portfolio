@@ -23,6 +23,10 @@ body,
   max-width: 900px;
   margin: auto;
   flex: 1 0 auto;
+
+  @media (max-width: $large-width) {
+    max-width: 90%;
+  }
 }
 
 body {
@@ -42,6 +46,11 @@ body {
   p,
   a {
     color: getColour(black);
+    font-size: 16px;
+
+    @media (max-width: $small-width) {
+      font-size: 12px;
+    }
   }
 
   p {
