@@ -11,6 +11,12 @@ nav {
   .navLinks {
     gap: 30px;
   }
+
+  .logo {
+    @media (max-width: $small-width) {
+      display: none;
+    }
+  }
 }
 
 nav,
