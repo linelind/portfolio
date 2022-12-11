@@ -35,8 +35,6 @@ export default function HomePage() {
         <p>Communcation</p>
         <p>Content Creation</p>
         <p>Journalism</p>
-        <p>Publishing</p>
-        <p>Languages and Literature</p>
       </section>
     </div>
   );

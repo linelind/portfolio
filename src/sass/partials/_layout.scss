@@ -9,11 +9,33 @@
   margin-bottom: 50px;
   box-shadow: $shadow;
 
+  .projectContent {
+    display: flex;
+    align-items: flex-start;
+    gap: 25px;
+
+    p {
+      margin-top: 0;
+    }
+
+    img {
+      box-shadow: $shadow;
+    }
+  }
+
+  .projectContentText {
+    flex: 3;
+  }
+
+  .projectContentImg {
+    flex: 2;
+  }
+
   .projectLabel {
     font-size: 14px;
     margin-top: -20px;
     margin-bottom: 40px;
-    border-bottom: 1px solid getColour(brown);
+    border-bottom: 2px solid getColour(brown);
   }
 }
 
@@ -39,7 +61,7 @@
   margin-bottom: 50px;
 
   h2 {
-    border-bottom: 1px solid getColour(brown);
+    border-bottom: 2px solid getColour(brown);
   }
 }
 
@@ -73,5 +95,9 @@
 }
 
 .experienceContainer {
-  margin-top: 700px;
+  margin-top: 620px;
+}
+
+.screenshotSite {
+  width: 100%;
 }

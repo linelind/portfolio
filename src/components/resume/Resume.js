@@ -125,6 +125,32 @@ export default function Resume() {
           </div>
         </div>
       </section>
+
+      <section className='resumeContainer'>
+        <Heading size={2} title={"Certifications and courses"} />
+
+        <div className='resumeItem'>
+          <div className='resumeTimeInfo'>
+            <p>2022</p>
+            <p>Bouvet ASA</p>
+          </div>
+          <div className='resumeDescInfo'>
+            <Heading size={3} title={"Scrum Product Owner Certified"} />
+            <p>A two days full time course focused on learning Agile methodology and understanding the role of the Product Owner.</p>
+          </div>
+        </div>
+
+        <div className='resumeItem'>
+          <div className='resumeTimeInfo'>
+            <p>2021</p>
+            <p>Funka</p>
+          </div>
+          <div className='resumeDescInfo'>
+            <Heading size={3} title={"Publishing & Accessibility"} />
+            <p>A course focused on digital content creation and how to make sure content is accessible for as many users as possible.</p>
+          </div>
+        </div>
+      </section>
     </>
   );
 }
