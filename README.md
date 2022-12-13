@@ -2,13 +2,13 @@
 
 <img src="/src/assets/portfolio.png" alt="Screenshot from portfolio" title="Screenshot from portfolio">
 
-Welcome to my porfolio page! Here you will get an insight into me and my experience. Please feel free to contact me if you have any questions.
+Welcome to my portfolio page! Here you will get an insight into me and my experience. Please feel free to contact me if you have any questions.
 
 Visit site live at: [https://linelind-portfolio.up.railway.app/](https://linelind-portfolio.up.railway.app/)
 
 ## Description
 
-For my portfolio I have selected to showcase some of the projects I have worked on, and hightlighted some of the experience I have so far. The site contains the following pages:
+For my portfolio I have selected to showcase some of the projects I have worked on, and highlighted some of the experience I have so far. The site contains the following pages:
 
 - About
 - Projects

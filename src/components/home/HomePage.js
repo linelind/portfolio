@@ -17,7 +17,7 @@ export default function HomePage() {
         <div>
           <p>
             I am a recently graduated frontend developer based in Oslo, Norway. I enjoy solving problems, and have a passion for effective and smart solutions
-            that are accessible and inclusive. JavaScript sparks joy in me, and continued learning is my motivation.{" "}
+            that are accessible and inclusive. JavaScript sparks joy in me, and continued learning is my motivation.
           </p>
           <p>
             With a background from literature, journalism and publishing, I am well experienced in communication, working with a variety of media types and

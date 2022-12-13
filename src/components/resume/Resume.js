@@ -9,7 +9,7 @@ export default function Resume() {
           <p>Hi, I'm Line</p>
           <p>
             I have experience from working in Publishing, where I have worked for the last 3+ years. I am a certified Product Owner, and I currently work as a
-            Product Owner in a strong and warm agile team.
+            Product Owner in a wonderful agile team.
           </p>
           <p>
             For the last 2 years I have studied Frontend development at Noroff fulltime alongside my job. Having realized that my true passion is code, I am now
