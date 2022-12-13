@@ -42,7 +42,7 @@ export default function ProjectsPage() {
                 Bootstrap.
               </p>
               <div className='projectLinksSections'>
-                <a href='https://github.com/linelind/js-frameworks-course-assignment-linelind' target='_blank' rel='noreferrer'>
+                <a href='https://github.com/linelind/js-frameworks-ca-linelind' target='_blank' rel='noreferrer'>
                   GitHub
                 </a>
               </div>
@@ -62,7 +62,7 @@ export default function ProjectsPage() {
                 other users. The project is built using React, Bootstrap and Sass.
               </p>
               <div className='projectLinksSections'>
-                <a href='https://github.com/linelind/project-exam-2-linelind' target='_blank' rel='noreferrer'>
+                <a href='https://github.com/linelind/exam-project-2-linelind' target='_blank' rel='noreferrer'>
                   GitHub
                 </a>
                 <a href='https://plottwist-linelind.netlify.app' target='_blank' rel='noreferrer'>
