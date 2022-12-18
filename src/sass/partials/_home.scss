@@ -14,6 +14,7 @@
   margin-left: -10px;
   background-color: getColour(white);
   margin-bottom: 50px;
+  z-index: 10;
 
   @media (max-width: $mediumsmall-width) {
     margin-left: 0px;
@@ -29,6 +30,7 @@
   align-items: center;
   box-shadow: $shadow;
   background-color: getColour(lightbrown);
+  z-index: 100;
 
   @media (max-width: $mediumsmall-width) {
     width: 80%;
